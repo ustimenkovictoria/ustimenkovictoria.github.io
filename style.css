@@ -1,91 +1,54 @@
-/* Загальні стилі */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
     padding: 0;
 }
 
-/* Заголовок */
-header {
-    text-align: center;
-    padding: 50px;
-    background-color: #333;
-    color: white;
+li {
+    margin: 10px 0;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header p {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-/* Розділ проектів */
-section#projects {
-    padding: 20px;
-    background-color: white;
-    max-width: 900px;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-.project h3 {
-    margin: 0 0 10px;
-    color: #333;
-}
-
-.project p {
-    color: #666;
-}
-
-.project a {
-    color: #007bff;
+a {
     text-decoration: none;
+    color: #007bff;
 }
 
-.project a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-/* Віджет з контактами */
-section#contacts {
-    padding: 20px;
-    background-color: #f7f7f7;
-    max-width: 900px;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.social-links a {
-    display: inline-block;
-    margin: 10px;
-    color: #333;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.social-links a i {
-    margin-right: 8px;
-}
-
-.social-links a:hover {
-    color: #007bff;
-}
-
-/* Footer */
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     background-color: #333;
-    color: white;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
